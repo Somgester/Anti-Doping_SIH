@@ -1,0 +1,118 @@
+.sidebar {
+    width: 250px;
+    float: left;
+    color: black;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(183, 181, 181);
+    border-right:5px solid rgb(246, 3, 3)  ;
+  }
+  
+  .sidebar h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 35px;
+    /* background-color: #f5edee; */
+    color: rgb(246, 3, 3);
+    padding: 20px 0;
+    height: 15vh;
+    gap:5px;
+  }
+  
+  .section-title {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .filter-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 2vh;
+    height: 80%;
+  }
+  
+  .filter-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 10px;
+    /* border: 2px rgb(246, 3, 3) solid; */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+    font-size: 14px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+  }
+  
+  .apply-btn {
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(246, 3, 3);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(107, 107, 107);
+  }
+  
+  .apply-btn:hover {
+    transform: scale(1.02);
+  }
+  
+  .contact {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 3vh;
+  }
+  
+  .contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer p{
+    margin-top: auto;
+    height: 8vh;
+    /* background-color: rgb(243, 229, 229); */
+    color: rgb(252, 4, 4);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    font-weight: bolder;
+  }
+  .anti-doping{
+    width: 50px;
+    height: 50px;
+  }
