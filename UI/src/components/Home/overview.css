@@ -1,0 +1,37 @@
+.overview {
+    padding: 20px;
+  }
+  
+  .overview-section {
+    margin-bottom: 30px;
+  }
+  
+  .overview-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .overview-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

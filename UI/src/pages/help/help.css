@@ -1,0 +1,87 @@
+.help-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.faq-section {
+    margin: 20px 0;
+}
+
+.faq-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.faq-question:hover {
+    background-color: #f1f1f1;
+}
+
+.toggle-icon {
+    font-size: 20px;
+}
+
+.faq-answer {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact-form {
+    margin: 50px 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contact-form div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

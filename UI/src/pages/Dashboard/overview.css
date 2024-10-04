@@ -1,0 +1,64 @@
+.overview {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overview-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-right: red 5px solid;
+}
+
+.overview-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.overview-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    position: relative; /* Position relative for the pseudo-element */
+    overflow: hidden; /* Prevent overflow of the pseudo-element */
+}
+
+/* Add the border effect using a pseudo-element */
+.stat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    z-index: -1; /* Send it behind the box */
+    border: 2px solid transparent; /* Base border */
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(45deg, #ff7e5f, #feb47b);
+    background-origin: border-box;
+    background-clip: content-box, border-box; /* Clip the inner background */
+}
+
+.stat h3 {
+    font-size: 16px;
+    color: #555;
+}
+
+.stat p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+}
